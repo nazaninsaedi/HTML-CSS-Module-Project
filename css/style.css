@@ -1,10 +1,259 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
-body {
+.body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+*{
+    text-decoration: none;
+    list-style: none;
+}
+h2 {
+    font-size: 80px;
+}
+h3 {
+    font-size: 70px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    margin: auto;
+    background-color:#f9f9f9;
+}
+
+
+
+
+.header-ul {
+    display: flex;
+    list-style: none;
+    
+}
+.header-ul li {
+    font-size: 14px;
+    margin: 0 15px;
+
+}
+.header-ul li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ li a:hover{
+    color:red;
+ 
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin: 11px 30px;
+    size: 60cap;
+    
+}
+.article{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.article img{
+    width: 200px;
+    height: 200px;
+}
+.article p {
+    text-align: left;
+}
+.article-title {
+
+        font-size: 16px;
+        text-wrap: nowrap;
+        font-weight:410;
+    flex-direction: row;
+    text-align: center;
+}
+
+.icons {
+    /*width: auto;
+    height: 60px; 
+    float:center;
+    /* display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 22px;
+    flex-direction: row;
+}
+
+.introduce {
+    background-image: url("/img/first-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    color:white;
+    padding: 200px;
+    margin:auto;
+}
+.btn {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        background-color: #e0633a;
+        border: none;
+        border-radius: 2.5px;
+        font-size: 60px;
+      }
+
+.wifi {
+    justify-content: center;
+    text-align: center;
+    padding: 200px;
+   
+}
+@media (min-width: 320px) and (max-width:1200) {
+    div{
+        width: 470px;
+        background: aquamarine;
+    }
+    p{
+        color:rgb(4, 94, 64);
+    }
+}
+  
+   
+
+    
+   
+
+p {
+text-align: center;
+font-size: 70px;
+}
+
+.social-ul {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  
+}
+.insta {
+    border-radius: 100px;
+    border: 1px solid #adb0b7;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+  }
+.tweet {
+        border-radius: 100px;
+        border: 1px solid #adb0b7;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+      }
+.face {
+    border-radius: 100px;
+    border: 1px solid #adb0b7;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+  }
+#social {
+    margin-top: 100px;
+    border-radius: 50%;
+    
+}
+.footer {
+    color: rgb(108, 107, 107);
+
+}
+.karma {
+    margin-top: 100px;
+    
+}
+.image {
+    width: 100%;
+
+}
+.little {
+    margin-bottom: 100px;
+}
+
+
+.end-page {
+    display: flex;
+    margin-top: 200px;
+}
+.p-s1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(224, 99, 58, 0.1);
+   
+}
+.p-s1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(224, 99, 58, 0.1);
+   
+}
+.btn2 {
+    font-size: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #e0633a;
+    border: none;
+    border-radius: 8px;
+  }
+.end-img {
+    width: 50%;
+}
+b {
+    color: #E0633A;
+    font-size: ;
+}
+footer {
+    padding: 0 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+    
+    
+
+
 
 /**
  * Add your custom styles below
@@ -15,5 +264,3 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
-
-
